@@ -34,7 +34,7 @@
         <img id="mug" src="spin4.gif" alt="">
         <p class="title">Hi!</p>
         <p class="title">I'm Eve Weinberg</p>
-              <p class="title" id="old-me">I'm a <span class="new-me">Interactive</span> Motion Graphics Director <span class="new-me">who leverages emerging technology</span></p>
+              <p class="title" title="click on me!" id="old-me">I'm a <span class="new-me">Interactive</span> Motion Graphics Director <span class="new-me">who leverages emerging technology</span></p>
                 <!-- <p id="new-me" class="title">I'm a Motion Graphics Director who uses code, interactivity, and new tech.</p> -->
       </div>
 
@@ -190,17 +190,14 @@
 <hr>
 <p class="title">JS Font</p>
 <img class="thirty" src="img/hello.gif" alt="">
-<div class="holder-wide draggable resizable">
+<!-- <div class="holder-wide draggable resizable">
 <iframe width="100%" height="100%" frameBorder="0" src="http://itpblog.evejweinberg.com/Homework/hello/
 "></iframe>
-</div>
+</div> -->
 <hr>
 <p class="title"> <a href="https://github.com/evejweinberg/sparkleHover" target="_blank">Sparkle Hover</a></p>
 
-<img class="thirty" src="img/sparkle.gif" alt="">
-<br>
-
-
+<img class="thirty" src="img/sparkle.gif" alt=""></img>
 
 
 
@@ -294,7 +291,7 @@
     $( ".draggable" ).draggable();
      $( ".resizable" ).resizable();
 
-     console.log("Hi, I'm Eve Weinberg. I'm a Motion Graphics Director.Or at least that’s what I used to say before ITP. Now I say ….But let’s back up, how did I get here?For 5 years I was an animator, then once I understood the industry and was brave enough, I started my own motion graphics studio, called ‘Never Odd or Even’. While running never Odd or Even I created work thatHas been characterized by and awarded for it’s playful sensibilities, strong branding, and visual cohesion across multiple mediums.My projects started in the traditional motion graphics realm,- documentaries and tv commecials,Here is the graphics cut down from a feature film featuring Noam Chomsky.My company created 45 animations explaining his thoughts about income inequality in America. Conceptually the director and I decided to create all graphics with only using the $1 for all backgrounds and charts.And this one for Participant Media is about Hunger in America. My recognition for this work led me to be seen by larger clients.CNN - branding package, but this time, for the web.Creating an animated visual identity for their online pillars. I was asked to help launch a prominent startup called Now This News, creating all assets and branding for their website, app, and print, holding their hand through their first year.These projects all culminated in my largest project while running never Odd or Even, which was a museum exhibition. Hired by the interaction company Potion, here in the city, we built out an entire room in the museum of science and industry in Chicago.It was on this project that I sat tirelessly with developers,  telling them what I wanted and what the client wanted, but felt helpless is helping them build it.but I wasn’t understanding how to make their lives easier.I lacked the knowledge to defend their deadlines to the client,And lacked understanding of the medium in order brainstorm creative interactive solutionsThe desire to seek this knowledge and develop these skills led me to ITP.To fill in the gaps and transform into an interactive motion director.At ITP I’ve made a handful of significant projects.The first being superhero. .Able to concept a novel interaction, map out the user experience, and then code it.Anxiety Brain - exploring the library 3JS and photogrammetry.Again, think about UX and code it.So here I am at Thesis. I get one last big project!...read slides"
+    //  console.log("Hi, I'm Eve Weinberg. I'm a Motion Graphics Director.Or at least that’s what I used to say before ITP. Now I say ….But let’s back up, how did I get here?For 5 years I was an animator, then once I understood the industry and was brave enough, I started my own motion graphics studio, called ‘Never Odd or Even’. While running never Odd or Even I created work thatHas been characterized by and awarded for it’s playful sensibilities, strong branding, and visual cohesion across multiple mediums.My projects started in the traditional motion graphics realm,- documentaries and tv commecials,Here is the graphics cut down from a feature film featuring Noam Chomsky.My company created 45 animations explaining his thoughts about income inequality in America. Conceptually the director and I decided to create all graphics with only using the $1 for all backgrounds and charts.And this one for Participant Media is about Hunger in America. My recognition for this work led me to be seen by larger clients.CNN - branding package, but this time, for the web.Creating an animated visual identity for their online pillars. I was asked to help launch a prominent startup called Now This News, creating all assets and branding for their website, app, and print, holding their hand through their first year.These projects all culminated in my largest project while running never Odd or Even, which was a museum exhibition. Hired by the interaction company Potion, here in the city, we built out an entire room in the museum of science and industry in Chicago.It was on this project that I sat tirelessly with developers,  telling them what I wanted and what the client wanted, but felt helpless is helping them build it.but I wasn’t understanding how to make their lives easier.I lacked the knowledge to defend their deadlines to the client,And lacked understanding of the medium in order brainstorm creative interactive solutionsThe desire to seek this knowledge and develop these skills led me to ITP.To fill in the gaps and transform into an interactive motion director.At ITP I’ve made a handful of significant projects.The first being superhero. .Able to concept a novel interaction, map out the user experience, and then code it.Anxiety Brain - exploring the library 3JS and photogrammetry.Again, think about UX and code it.So here I am at Thesis. I get one last big project!...read slides"
 );
 
   const numbers = document.querySelectorAll('.number')
@@ -364,7 +361,7 @@
   }
 
 $('#old-me').click(function(){
-  console.log('reaveal')
+  // console.log('reaveal')
   $('.new-me').toggle(function(){
         $('.new-me').animate({
             top: "150",
